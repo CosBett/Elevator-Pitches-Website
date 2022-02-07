@@ -1,8 +1,11 @@
 from flask import Flask,render_template
+from flask_sqlalchemy import SQLAlchemy
 
 # Create instance of my application 
 app = Flask(__name__)
 
+# SQLAlchemy instance
+db = SQLAlchemy(app)
 # Add app endpoints
 @app.route('/')
 
