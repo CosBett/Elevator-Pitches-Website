@@ -1,9 +1,11 @@
 from flask import Flask,render_template
 from flask_sqlalchemy import SQLAlchemy
+from config.base_config import *
 
 # Create instance of my application 
 app = Flask(__name__)
-
+# Specifying db enviroment
+app.config.from_object(Development)
 # SQLAlchemy instance
 db = SQLAlchemy(app)
 # Add app endpoints

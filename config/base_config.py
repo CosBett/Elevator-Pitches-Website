@@ -16,10 +16,10 @@ class Staging(Base):
   DATABASE = ''
   POSTGRES_USER = ''
   POSTGRES_PASSWORD = ''
-  SQLALCHEMY_DATABASE_URL = 'sqlite://tmp/elevatorPitch.db'
+  SQLALCHEMY_DATABASE_URL = ''
 
 class Production(Base):
   DATABASE = ''
   POSTGRES_USER = ''
   POSTGRES_PASSWORD = ''
-  SQLALCHEMY_DATABASE_URL = 'sqlite://tmp/elevatorPitch.db'
+  SQLALCHEMY_DATABASE_URL = ''
