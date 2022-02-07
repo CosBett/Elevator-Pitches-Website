@@ -9,7 +9,17 @@ app = Flask(__name__)
 # View function
 def homepage():
    return 'IT IS WORKING'
-   
+
+# Sign Up endpoint
+def signup():
+  return 'sign up working'
+
+# Sign In endpoint
+def signin():
+  return 'sign in working' 
+# Sign Out endpoint
+
+
 #Setting debug Mode to true
 if __name__=='__main__':
   app.run(debug=True)
