@@ -16,90 +16,89 @@
 </head>
 
 <body>
-  <!-- Body content   -->
-  <div id="content">
-    {% block content %} {% endblock %}
-  </div>
-  <!-- Footer -->
-  <div id="footer">
-    {% block footer %}
-    <footer class="page-footer font-small indigo">
-      <div class="container">
-        <div class="row text-center d-flex justify-content-center pt-2 mb-1">
-          <div class="col-md-3 mb-1">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Home</a>
-            </h6>
-          </div>
-          <div class="col-md-3 mb-1">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">About us</a>
-            </h6>
-          </div>
-          <div class="col-md-3 mb-1">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="#!"> Sign up</a>
-            </h6>
-          </div>
-          <div class="col-md-3 mb-1">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Sign in</a>
-            </h6>
-          </div>
-        </div>
-
-        <hr class="rgba-white-light" style="margin: 0 10%;">
-        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-          <div class="col-md-8 col-12 mt-2">
-            <p style="line-height: 1.7rem"> This web application allows you to present your one minute pitches to the world and other users will vote on and leave comments to give you their feedback on them.</p>
-            <h6 style="line-height: 1.7rem"> Connect with us on, </h2>
-          </div>
-
-        </div>
-        <hr class="clearfix d-md-none rgba-white-light" style="margin: 8% 10% 3%;">
-
-        <div class="row pb-3">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-
-            <div class="mb-5 d-flex justify-content-evenly ">
-
-              <!-- Facebook -->
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
-              </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i class="fab fa-google-plus-g fa-lg white-text mr-4"></i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i class="fab fa-linkedin-in fa-lg white-text mr-4"></i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg white-text mr-4"></i>
-              </a>
+  <div class="container bg-light">
+    <!-- Body content   -->
+    <div id="content">
+      {% block content %} {% endblock %}
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      {% block footer %}
+      <footer class="page-footer font-small indigo">
+        <div class="container">
+          <div class="row text-center d-flex justify-content-center pt-2 mb-1">
+            <div class="col-md-3 mb-1">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Home</a>
+              </h6>
+            </div>
+            <div class="col-md-3 mb-1">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">About us</a>
+              </h6>
+            </div>
+            <div class="col-md-3 mb-1">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!"> Sign up</a>
+              </h6>
+            </div>
+            <div class="col-md-3 mb-1">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Sign in</a>
+              </h6>
             </div>
           </div>
-          <div class="col-md-3"></div>
+
+          <hr class="rgba-white-light" style="margin: 0 10%;">
+          <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+            <div class="col-md-8 col-12 mt-2">
+              <p style="line-height: 1.7rem"> This web application allows you to present your one minute pitches to the world and other users will vote on and leave comments to give you their feedback on them.</p>
+              <h6 style="line-height: 1.7rem"> Connect with us on, </h2>
+            </div>
+
+          </div>
+          <hr class="clearfix d-md-none rgba-white-light" style="margin: 8% 10% 3%;">
+
+          <div class="row pb-3">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+              <div class=" d-flex justify-content-evenly ">
+
+                <!-- Facebook -->
+                <a class="fb-ic">
+                  <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic">
+                  <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic">
+                  <i class="fab fa-google-plus-g fa-lg white-text mr-4"></i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic">
+                  <i class="fab fa-linkedin-in fa-lg white-text mr-4"></i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i class="fab fa-instagram fa-lg white-text mr-4"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
         </div>
-
-      </div>
-      <hr class="clearfix d-md-none rgba-white-light" style="margin: 8% 10% 3%;">
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-0">© 2022 Copyright:
-        <a href="https://mdbootstrap.com/"> CosBett </a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    {% endblock %}
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-0">© 2022 Copyright:
+          <a href="https://mdbootstrap.com/"> CosBett </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      {% endblock %}
+    </div>
   </div>
   <!-- Boostrap Js links -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
