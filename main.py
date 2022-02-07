@@ -8,21 +8,21 @@ app = Flask(__name__)
 
 # View function
 def homepage():
-   return 'IT IS WORKING'
+   return render_template('index.html')
 
 # Sign Up endpoint
 @app.route('/signup')
 def signup():
-  return 'sign up working'
+  return render_template('signup.html')
 
 # Sign In endpoint
 @app.route('/signin')
 def signin():
-  return'sign in working' 
+  return render_template('signin.html')
 # Sign Out endpoint
 @app.route('/signout')
 def signout():
-  return 'sign out working'
+  return render_template('signout.html')
 
 #Setting debug Mode to true
 if __name__=='__main__':
